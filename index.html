@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <title>Tomás Preuss — Developer & Designer</title>
+  <meta name="description" content="Portafolio de Tomás Preuss: diseño y desarrollo web." />
+  <meta name="keywords" content="Tomás Preuss, developer, designer, portfolio" />
+
+  <!-- Fuente -->
+   <!-- En el <head> -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Librerías -->
+  <script src="https://unpkg.com/sweet-scroll/sweet-scroll.min.js"></script>
+  <script src="assets/js/main.js" defer></script>
+
+  <!-- Iconos -->
+  <link rel="icon" href="./favicon.ico">
+</head>
+<body>
+<main>
+  <!-- Hero / Navbar -->
+  <header id="heroHeader" class="hero-header">
+    <nav id="navBar" class="nav" aria-label="Principal">
+      <div class="container">
+        <button type="button" id="hamburgerBtn" class="nav__hamburger-btn" aria-label="Abrir menú" aria-expanded="false">
+          <span class="nav__hamburger-top"></span>
+          <span class="nav__hamburger-center"></span>
+          <span class="nav__hamburger-bottom"></span>
+        </button>
+
+        <ul id="navList" class="nav__list">
+          <li class="nav__list-item"><a class="nav__list-link active" href="#heroHeader">&lt;Home &sol;&gt;</a></li>
+          <li class="nav__list-item"><a class="nav__list-link" href="#services">&lt;Lo que hago &sol;&gt;</a></li>
+          <li class="nav__list-item"><a class="nav__list-link" href="#works">&lt;Works &sol;&gt;</a></li>
+          <li class="nav__list-item"><a class="nav__list-link" href="#contact">&lt;Contact &sol;&gt;</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="header__container container">
+      <div class="header__left">
+        <span class="header__sup-text">Hola, soy Tomás Preuss</span>
+        <h1 class="header__title" aria-label="Tomás Preuss — Developer & Designer">
+          <span class="header__title-1" data-role="WEB">Web</span>
+          <span class="header__title-2" data-role="DEVELOPER">Developer & Designer</span>
+        </h1>
+        <p class="header__msg">
+          Desarrollo interfaces limpias y accesibles con foco en performance y detalle visual.
+        </p>
+        <a class="header__resume" href="assets/cv/Tomas_Preuss_CV.pdf" target="_blank" rel="noopener noreferrer">Portafolio</a>
+      </div>
+
+      <div class="header__right" aria-hidden="true">
+        <img src="assets/img/hero-illustration.png" alt="" />
+      </div>
+    </section>
+    <span class="header__bg"></span>
+  </header>
+
+<!-- Servicios -->
+<section id="servicios" class="section container">
+    <h2 class="section__title">Servicios</h2>
+
+    <div class="service-cards">
+        <!-- Web Developer -->
+        <article class="service-card__box">
+            <span class="service-card__illustration">
+                <img src="./assets/icons/front-end-programming.png" alt="Web Developer Icon" class="card-icon">
+            </span>
+            <h3 class="service-card__title">Web Developer</h3>
+            <p class="service-card__msg">
+                Creo sitios web responsivos, rápidos y fáciles de usar con código limpio y eficiente.
+            </p>
+            <span class="service-card__bg"></span>
+        </article>
+
+        <!-- Design -->
+        <article class="service-card__box">
+            <span class="service-card__illustration">
+                <img src="./assets/icons/object-ungroup-regular-full.svg" alt="Design Icon" class="card-icon">
+            </span>
+            <h3 class="service-card__title">Design</h3>
+            <p class="service-card__msg">
+                Diseño interfaces atractivas y funcionales que combinan estética y experiencia de usuario.
+            </p>
+            <span class="service-card__bg"></span>
+        </article>
+
+        <!-- Deploy -->
+        <article class="service-card__box">
+            <span class="service-card__illustration">
+                <img src="https://cdn-icons-png.flaticon.com/512/8099/8099397.png" alt="Deploy Icon" class="card-icon">
+            </span>
+            <h3 class="service-card__title">Deploy</h3>
+            <p class="service-card__msg">
+                Pongo tu sitio en línea de forma rápida y segura, asegurando que funcione sin problemas y esté listo para tus usuarios.
+            </p>
+            <span class="service-card__bg"></span>
+        </article>
+    </div>
+</section>
+
+  <!-- Works -->
+  <section id="works" class="section container" aria-labelledby="works-title">
+    <h2 id="works-title" class="section__title">My Works</h2>
+
+    <div class="works">
+      <article class="work">
+        <div class="work__box">
+          <a class="work__img-box" href="#" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/work-1.jpg" alt="Proyecto 1" />
+          </a>
+          <h3 class="work__title">Landing Proyecto 1</h3>
+          <span class="work__badges">
+            <span class="work__badge">HTML</span>
+            <span class="work__badge">CSS</span>
+            <span class="work__badge">JS</span>
+          </span>
+        </div>
+      </article>
+
+      <article class="work">
+        <div class="work__box">
+          <a class="work__img-box" href="#" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/work-2.jpg" alt="Proyecto 2" />
+          </a>
+          <h3 class="work__title">E‑commerce Proyecto 2</h3>
+          <span class="work__badges">
+            <span class="work__badge">Next.js</span>
+            <span class="work__badge">Tailwind</span>
+            <span class="work__badge">Vercel</span>
+          </span>
+        </div>
+      </article>
+
+      <article class="work">
+        <div class="work__box">
+          <a class="work__img-box" href="#" target="_blank" rel="noopener noreferrer">
+            <img src="assets/img/work-3.jpg" alt="Proyecto 3" />
+          </a>
+          <h3 class="work__title">Portfolio Proyecto 3</h3>
+          <span class="work__badges">
+            <span class="work__badge">UX</span>
+            <span class="work__badge">UI</span>
+            <span class="work__badge">SEO</span>
+          </span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section container" aria-labelledby="contact-title">
+    <h2 id="contact-title" class="section__title">Let's Connect!</h2>
+
+    <div class="contact">
+      <form id="contactForm" class="contact__form" action="#" method="post" novalidate>
+        <div class="contact__field-wrapper">
+          <label for="name">Name:</label>
+          <input id="name" name="name" type="text" placeholder="What's your name?" required />
+        </div>
+
+        <div class="contact__field-wrapper">
+          <label for="email">Email:</label>
+          <input id="email" name="email" type="text" inputmode="email" placeholder="you@email.com" required />
+        </div>
+
+        <div class="contact__field-wrapper">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Let's connect!"></textarea>
+        </div>
+
+        <button type="submit" class="contact__submit-btn">Submit</button>
+      </form>
+
+      <span class="contact__illustration" aria-hidden="true">
+        <img src="assets/img/contact-illustration.png" alt="" />
+      </span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © <span id="year"></span> Tomás Preuss — <a class="footer__link" href="#heroHeader">Volver arriba</a>
+  </footer>
+</main>
+</body>
+</html>
